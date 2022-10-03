@@ -1,0 +1,1885 @@
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# vsim work.top_tb 
+# Start time: 10:26:37 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft8y1yaq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8y1yaq
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# Simulation Failed
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(88)
+#    Time: 1500 us  Iteration: 0  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 88
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 10:47:26 on May 16,2021, Elapsed time: 0:20:49
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 10:47:26 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftkxtgws".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkxtgws
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000000, expect = 00000001
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 12345678, expect = 000091a2
+# DM[   7] = 00000000, expect = 00000003
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff002, expect = fffff000
+# DM[  39] = fffff002, expect = fffff000
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 00000000, expect = 000174a8
+# DM[  46] = 000174a8, expect = fffffb37
+# DM[  47] = fffffb37, expect = 00007740
+# DM[  48] = 00000000, expect = 00005af3
+# DM[  49] = 00005af3, expect = ffffff17
+# DM[  50] = ffffff17, expect = 000000e8
+# DM[  51] = 000000e8, expect = 00005af3
+# DM[  52] = 00005af3, expect = 000f405f
+# DM[  53] = 000f405f, expect = ffe17e1e
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has          14 errors                     
+# 
+# 
+# total cycle:     20397
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 203980 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# A time value could not be extracted from the current line
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:03:18 on May 16,2021, Elapsed time: 0:15:52
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:03:18 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftktjf99".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftktjf99
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000000, expect = 00000001
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 12345678, expect = 000091a2
+# DM[   7] = 00000000, expect = 00000003
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff002, expect = fffff000
+# DM[  39] = fffff002, expect = fffff000
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has           5 errors                     
+# 
+# 
+# total cycle:     20397
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 203980 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v failed with 1 errors.
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:14:28 on May 16,2021, Elapsed time: 0:11:10
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:14:28 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftqzk978".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqzk978
+add wave -position insertpoint sim:/top_tb/TOP/*
+vsim work.top_tb
+# End time: 11:15:29 on May 16,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:15:29 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftxy8rz3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxy8rz3
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# Simulation Failed
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(88)
+#    Time: 1500 us  Iteration: 0  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 88
+# Compile of CPU.v was successful.
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:17:44 on May 16,2021, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:17:44 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftagr65s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftagr65s
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000000, expect = 00000001
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 12345678, expect = 000091a2
+# DM[   7] = 00000000, expect = 00000003
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff002, expect = fffff000
+# DM[  39] = fffff002, expect = fffff000
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has           5 errors                     
+# 
+# 
+# total cycle:     20397
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 203980 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:39:07 on May 16,2021, Elapsed time: 0:21:23
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:39:07 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftyrj1yc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyrj1yc
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 12345678, expect = 000091a2
+# DM[   7] = 00000000, expect = 00000003
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff002, expect = fffff000
+# DM[  39] = fffff002, expect = fffff000
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has           4 errors                     
+# 
+# 
+# total cycle:     20397
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 203980 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 12:27:03 on May 16,2021, Elapsed time: 0:47:56
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 12:27:03 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft2cf9eg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2cf9eg
+add wave -position insertpoint sim:/top_tb/TOP/*
+vsim work.top_tb
+# End time: 12:27:36 on May 16,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 12:27:36 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft5m1k5a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5m1k5a
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff002, expect = fffff000
+# DM[  39] = fffff002, expect = fffff000
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has           2 errors                     
+# 
+# 
+# total cycle:     20397
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 203980 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 13:13:35 on May 16,2021, Elapsed time: 0:45:59
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 13:13:35 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftxnddi9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxnddi9
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     20393
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 203940 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v failed with 2 errors.
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 23:30:17 on May 16,2021, Elapsed time: 10:16:42
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 23:30:17 on May 16,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftfg60rc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfg60rc
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     15305
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 153060 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 10:15:44 on May 17,2021, Elapsed time: 10:45:27
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 10:15:44 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlfths38j9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfths38j9
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11364
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113650 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 10:21:49 on May 17,2021, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 10:21:49 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft31ja7t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft31ja7t
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11344
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113450 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 10:24:05 on May 17,2021, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 10:24:05 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlfte4d3ch".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte4d3ch
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11343
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113440 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:07:02 on May 17,2021, Elapsed time: 0:42:57
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:07:02 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftgsemcv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgsemcv
+run -all
+# Simulation Failed
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(88)
+#    Time: 1500 us  Iteration: 0  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 88
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:14:06 on May 17,2021, Elapsed time: 0:07:04
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:14:06 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftzgg99w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzgg99w
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11343
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113440 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:15:27 on May 17,2021, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:15:27 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft15meqd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft15meqd
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11343
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113440 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:24:30 on May 17,2021, Elapsed time: 0:09:03
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:24:30 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftyjexr1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyjexr1
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11343
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113440 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     11344
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 113450 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 11:27:46 on May 17,2021, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 11:27:46 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft08hqnm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft08hqnm
+run -all
+# Simulation Failed
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(88)
+#    Time: 1500 us  Iteration: 0  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 88
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 12:11:04 on May 17,2021, Elapsed time: 0:43:18
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 12:11:05 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftj012ni".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj012ni
+run -all
+# Simulation Failed
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(88)
+#    Time: 1500 us  Iteration: 0  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 88
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 12:37:48 on May 17,2021, Elapsed time: 0:26:43
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 12:37:48 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftkyk6xv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkyk6xv
+run -all
+# 
+# Done
+# 
+# DM[   0] = 10305000, expect = fffffff0
+# DM[   1] = 00000000, expect = fffffff8
+# DM[   2] = 00005000, expect = 00000008
+# DM[   3] = 00000000, expect = 00000001
+# DM[   4] = 00005000, expect = 00000001
+# DM[   5] = 12345678, expect = 78787878
+# DM[   6] = 0000f000, expect = 000091a2
+# DM[   7] = 00000f00, expect = 00000003
+# DM[   8] = 000000f0, expect = fefcfefd
+# DM[   9] = 0000000f, expect = 10305070
+# DM[  10] = 56780000, expect = cccccccc
+# DM[  11] = 78000000, expect = ffffffcc
+# DM[  12] = 00005678, expect = ffffcccc
+# DM[  13] = 00000078, expect = 000000cc
+# DM[  14] = 12345678, expect = 0000cccc
+# DM[  15] = 00000000, expect = 00000d9d
+# DM[  16] = fffff000, expect = 00000004
+# DM[  17] = fffff000, expect = 00000003
+# DM[  18] = fffff000, expect = 000001a6
+# DM[  19] = fffff000, expect = 00000ec6
+# DM[  20] = fffff000, expect = 2468b7a8
+# DM[  21] = fffff000, expect = 5dbf9f00
+# DM[  22] = ffd23f64, expect = 00012b38
+# DM[  23] = 00000000, expect = fa2817b7
+# DM[  24] = 00000000, expect = ff000000
+# DM[  25] = 00000000, expect = 12345678
+# DM[  26] = 00000000, expect = 0000f000
+# DM[  27] = 00000000, expect = 00000f00
+# DM[  28] = 00000000, expect = 000000f0
+# DM[  29] = 00000000, expect = 0000000f
+# DM[  30] = 00000000, expect = 56780000
+# DM[  31] = 00000000, expect = 78000000
+# DM[  32] = 00000000, expect = 00005678
+# DM[  33] = 00000000, expect = 00000078
+# DM[  34] = 00000000, expect = 12345678
+# DM[  35] = 00000000, expect = ce780000
+# DM[  36] = 00000000, expect = fffff000
+# DM[  37] = 00000000, expect = fffff000
+# DM[  38] = 00000000, expect = fffff000
+# DM[  39] = 00000000, expect = fffff000
+# DM[  40] = 00000000, expect = fffff000
+# DM[  41] = 00000000, expect = fffff000
+# DM[  42] = 00000000, expect = 1357a064
+# DM[  43] = 00000000, expect = 13578000
+# DM[  44] = 00000000, expect = fffff004
+# DM[  45] = 00000000, expect = 000174a8
+# DM[  46] = 00000000, expect = fffffb37
+# DM[  47] = 00000000, expect = 00007740
+# DM[  48] = 00000000, expect = 00005af3
+# DM[  49] = 00000000, expect = ffffff17
+# DM[  50] = 00000000, expect = 000000e8
+# DM[  51] = 00000000, expect = 00005af3
+# DM[  52] = 00000000, expect = 000f405f
+# DM[  53] = 00000000, expect = ffe17e1e
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has          54 errors                     
+# 
+# 
+# total cycle:     11129
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 111300 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# Compile of CPU.v failed with 1 errors.
+# Compile of CPU.v was successful.
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 16:08:49 on May 17,2021, Elapsed time: 3:31:01
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 16:08:49 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlft8zbkvw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8zbkvw
+run -all
+# Simulation Failed
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(88)
+#    Time: 1500 us  Iteration: 0  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 88
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 16:13:28 on May 17,2021, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 16:13:28 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftc2ysr4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc2ysr4
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = 00009d0c, expect = cccccccc
+# DM[  11] = 00000c14, expect = ffffffcc
+# DM[  12] = 00000000, expect = ffffcccc
+# DM[  13] = 00000000, expect = 000000cc
+# DM[  14] = 00000000, expect = 0000cccc
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 07780000, expect = 56780000
+# DM[  31] = 78000000, pass
+# DM[  32] = 00000778, expect = 00005678
+# DM[  33] = 00000000, expect = 00000078
+# DM[  34] = 000000ff, expect = 12345678
+# DM[  35] = fffff000, expect = ce780000
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = 1357a064, expect = fffff000
+# DM[  42] = 13578000, expect = 1357a064
+# DM[  43] = fffff004, expect = 13578000
+# DM[  44] = 000174a8, expect = fffff004
+# DM[  45] = fffffb37, expect = 000174a8
+# DM[  46] = 00007740, expect = fffffb37
+# DM[  47] = 00005af3, expect = 00007740
+# DM[  48] = ffffff17, expect = 00005af3
+# DM[  49] = 000000e8, expect = ffffff17
+# DM[  50] = 00005af3, expect = 000000e8
+# DM[  51] = 000f405f, expect = 00005af3
+# DM[  52] = ffe17e1e, expect = 000f405f
+# DM[  53] = 00000000, expect = ffe17e1e
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  OOPS!!                **      / X,X  | 
+#         **                        **    /_____   | 
+#         **  Simulation Failed!!   **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+#          Totally has          23 errors                     
+# 
+# 
+# total cycle:     10185
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 101860 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# A time value could not be extracted from the current line
+# Compile of CPU.v was successful.
+vsim work.top_tb
+# End time: 17:11:39 on May 17,2021, Elapsed time: 0:58:11
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 17:11:39 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftnr2t0v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnr2t0v
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     10198
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 101990 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+vsim work.top_tb
+# End time: 18:36:30 on May 17,2021, Elapsed time: 1:24:51
+# Errors: 0, Warnings: 3
+# vsim work.top_tb 
+# Start time: 18:36:30 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+add wave -position insertpoint sim:/top_tb/TOP/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patri  Hostname: DESKTOP-U12BU44  ProcessID: 28688
+#           Attempting to use alternate WLF file "./wlftd6r8m2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftd6r8m2
+add wave -position insertpoint  \
+sim:/top_tb/TOP/i_CPU/x
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:     10198
+# ** Note: $finish    : C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v(67)
+#    Time: 101990 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v line 67
+# End time: 20:19:28 on May 17,2021, Elapsed time: 1:42:58
+# Errors: 0, Warnings: 3

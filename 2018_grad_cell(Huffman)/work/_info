@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell
+T_opt
+VLz^kBjW8_]eHSo5zO0fZE1
+04 2 4 work tb fast 0
+=5-00d86109c718-62402437-22d-3104
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1c;51
+vhuffman
+ICKFSVZjkO0N@6THh_<d2F2
+V?5cPMbafgz2gX?Zm]B6T73
+Z0 dC:\Users\patri\Desktop\ic_contest_2022\2018_grad_cell
+w1648370629
+8huffman.v
+Fhuffman.v
+L0 1
+Z1 OL;L;10.1c;51
+r1
+31
+Z2 !s108 1648370732.670000
+Z3 !s107 huffman.v|tb.v|
+Z4 !s90 -reportprogress|300|tb.v|huffman.v|+define+tb3|+access+r|
+Z5 o+access+r -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z6 !s92 +define+tb3 +access+r -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 ca=J<3NPbZIIz;^oG<^NZ3
+!i10b 1
+!s85 0
+vtb
+I;fj4lD6WWkz8;=>c0B_RW1
+VV@Xn<HnSRM[I5c1?BH]3a3
+Z7 dC:\Users\patri\Desktop\ic_contest_2022\2018_grad_cell
+w1521524727
+8tb.v
+Ftb.v
+L0 35
+R1
+r1
+31
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 96cT=Ko[Ii`O3Fk6^zJ<c2
+!s85 0

@@ -1,0 +1,13 @@
+C:/Users/patri/Desktop/ic_contest_2022/E_ICC2018_priliminary_univ_cell/testfixture.v {0 {vlog -work work -vopt C:/Users/patri/Desktop/ic_contest_2022/E_ICC2018_priliminary_univ_cell/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test
+** Error: C:/Users/patri/Desktop/ic_contest_2022/E_ICC2018_priliminary_univ_cell/testfixture.v(74): (vlog-2163) Macro `CMD is undefined.
+
+** Error: C:/Users/patri/Desktop/ic_contest_2022/E_ICC2018_priliminary_univ_cell/testfixture.v(75): (vlog-2163) Macro `EXPECT is undefined.
+
+-- Compiling module IROM
+** Error: C:/Users/patri/Desktop/ic_contest_2022/E_ICC2018_priliminary_univ_cell/testfixture.v(177): (vlog-2163) Macro `IMAGE is undefined.
+
+-- Compiling module IRAM
+
+} {4.0 5.0 6.0 7.0 9.0 10.0} {}}

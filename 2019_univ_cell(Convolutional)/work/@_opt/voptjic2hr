@@ -1,0 +1,60 @@
+library verilog;
+use verilog.vl_types.all;
+entity CONV is
+    generic(
+        idle            : integer := 0;
+        read_input      : integer := 1;
+        zero_padding    : integer := 2;
+        conv            : integer := 3;
+        relu            : integer := 4;
+        write_layer0    : integer := 5;
+        max_pooling     : integer := 6;
+        write_layer1    : integer := 7;
+        finish          : integer := 8;
+        K0_0            : vl_logic_vector(0 to 19) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi1, Hi1, Hi1, Hi1, Hi0);
+        K0_1            : vl_logic_vector(0 to 19) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi1, Hi0, Hi0, Hi1, Hi0, Hi1, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1);
+        K0_2            : vl_logic_vector(0 to 19) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi1, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1);
+        K0_3            : vl_logic_vector(0 to 19) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0);
+        K0_4            : vl_logic_vector(0 to 19) := (Hi1, Hi1, Hi1, Hi1, Hi1, Hi0, Hi0, Hi0, Hi1, Hi1, Hi1, Hi1, Hi0, Hi1, Hi1, Hi1, Hi0, Hi0, Hi0, Hi1);
+        K0_5            : vl_logic_vector(0 to 19) := (Hi1, Hi1, Hi1, Hi1, Hi0, Hi1, Hi1, Hi0, Hi1, Hi1, Hi1, Hi0, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi0);
+        K0_6            : vl_logic_vector(0 to 19) := (Hi1, Hi1, Hi1, Hi1, Hi1, Hi0, Hi1, Hi0, Hi0, Hi1, Hi1, Hi0, Hi1, Hi1, Hi0, Hi1, Hi0, Hi1, Hi1, Hi1);
+        K0_7            : vl_logic_vector(0 to 19) := (Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi1, Hi0, Hi0);
+        K0_8            : vl_logic_vector(0 to 19) := (Hi1, Hi1, Hi1, Hi1, Hi1, Hi0, Hi1, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi1);
+        Bias            : vl_logic_vector(0 to 19) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0)
+    );
+    port(
+        clk             : in     vl_logic;
+        reset           : in     vl_logic;
+        busy            : out    vl_logic;
+        ready           : in     vl_logic;
+        iaddr           : out    vl_logic_vector(11 downto 0);
+        idata           : in     vl_logic_vector(19 downto 0);
+        cwr             : out    vl_logic;
+        caddr_wr        : out    vl_logic_vector(11 downto 0);
+        cdata_wr        : out    vl_logic_vector(19 downto 0);
+        crd             : out    vl_logic;
+        caddr_rd        : out    vl_logic_vector(11 downto 0);
+        cdata_rd        : in     vl_logic_vector(19 downto 0);
+        csel            : out    vl_logic_vector(2 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of idle : constant is 1;
+    attribute mti_svvh_generic_type of read_input : constant is 1;
+    attribute mti_svvh_generic_type of zero_padding : constant is 1;
+    attribute mti_svvh_generic_type of conv : constant is 1;
+    attribute mti_svvh_generic_type of relu : constant is 1;
+    attribute mti_svvh_generic_type of write_layer0 : constant is 1;
+    attribute mti_svvh_generic_type of max_pooling : constant is 1;
+    attribute mti_svvh_generic_type of write_layer1 : constant is 1;
+    attribute mti_svvh_generic_type of finish : constant is 1;
+    attribute mti_svvh_generic_type of K0_0 : constant is 1;
+    attribute mti_svvh_generic_type of K0_1 : constant is 1;
+    attribute mti_svvh_generic_type of K0_2 : constant is 1;
+    attribute mti_svvh_generic_type of K0_3 : constant is 1;
+    attribute mti_svvh_generic_type of K0_4 : constant is 1;
+    attribute mti_svvh_generic_type of K0_5 : constant is 1;
+    attribute mti_svvh_generic_type of K0_6 : constant is 1;
+    attribute mti_svvh_generic_type of K0_7 : constant is 1;
+    attribute mti_svvh_generic_type of K0_8 : constant is 1;
+    attribute mti_svvh_generic_type of Bias : constant is 1;
+end CONV;

@@ -1,0 +1,130 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\patri\Desktop\ICDC_2011_grad-master
+T_opt
+VJJC[H8ZQfNX]Q<KJoRELN2
+Z1 04 4 4 work test fast 0
+=1-00d86109c718-621bb892-1d1-39c4
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z3 OL;O;10.1c;51
+T_opt1
+V5AHKS3<GUFb9V67bQ;U@U1
+04 4 4 work irom fast 0
+R1
+=1-00d86109c718-621b8902-349-55e0
+R2
+n@_opt1
+R3
+Z4 dC:\Users\patri\Desktop\ICDC_2011_grad-master
+T_opt2
+V6J;MFaLV_4=_@`VEQY??o2
+04 8 4 work LCD_CTRL fast 0
+=1-00d86109c718-621b88dc-32c-46f0
+R2
+n@_opt2
+R3
+R4
+vIRB
+IA4JN0nAFS]3G^Wb8[O3A`2
+V7a__=mQ6gUGEX59k7?oWD2
+Z5 dC:\Users\patri\Desktop\VERILOG\2011_univ_cell\ICC2011
+Z6 w1645970893
+FIRB.v
+Z7 8testfixture.v
+Z8 Ftestfixture.v
+L0 56
+Z9 OL;L;10.1c;51
+r1
+31
+Z10 !s108 1645983886.672000
+Z11 !s107 IROM.v|IRB.v|lcd_ctrl.v|testfixture.v|
+Z12 !s90 -reportprogress|300|testfixture.v|lcd_ctrl.v|+define+tb2|
+Z13 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z14 !s92 +define+tb2 -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@i@r@b
+!s100 z:kLlCno:FQN8;_;T41EI2
+!i10b 1
+!s85 0
+virom
+IZzYdLkm>JKmkPKjGWmLU;2
+VQ4KWLIYXPHSC^eT7iHaEO1
+R5
+R6
+Z15 FIROM.v
+R7
+R8
+L0 87
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!s100 9YlCc;4DW?mH[:<dIze9Q3
+!i10b 1
+!s85 0
+vIROM
+IFGQ<zDUTNmL7LlbNdnN2l1
+VPP@4>3=4CmDKHn4KDYOln2
+R5
+R6
+R15
+R7
+R8
+L0 68
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+n@i@r@o@m
+!s100 dFZWZLK4dM9cQAUTdfJ530
+!i10b 1
+!s85 0
+vLCD_CTRL
+If4<:an<dK8S5[1QkDhfRh1
+V;g5O`MjdgPn?NI2Gab8cG2
+R5
+w1645983825
+8lcd_ctrl.v
+Flcd_ctrl.v
+L0 1
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+n@l@c@d_@c@t@r@l
+!s100 W[]^VF5OVDfXne[35?jPi1
+!i10b 1
+!s85 0
+vtest
+I:3lJRAAL<H8nLZ^lGIJDI2
+VQ:0YoCTco[@:Ue3TQ770l0
+R5
+R6
+R7
+R8
+L0 20
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!s100 cz>kAYi9cZ`6fC?O^KlO20
+!i10b 1
+!s85 0

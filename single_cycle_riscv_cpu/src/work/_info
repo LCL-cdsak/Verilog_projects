@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+vCPU
+!s110 1621242633
+!i10b 1
+!s100 j^AITFQLW^dRELW=U17791
+InRj@ahNc0mCdKo```Gi9H0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src
+w1621242582
+8C:\Users\patri\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v
+FC:\Users\patri\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v
+L0 4
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1621242633.000000
+!s107 C:\Users\patri\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\patri\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@c@p@u
+vSRAM
+Z5 !s110 1621088404
+!i10b 1
+!s100 098NVJ5G7cQKQ54o@ikSC1
+IDmHCFmUJjIlfJ45QEo4;^3
+R0
+R1
+Z6 w1613988061
+8SRAM.v
+FSRAM.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z7 !s108 1621088404.000000
+Z8 !s107 SRAM.v|CPU.v|C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v|
+!i113 1
+R3
+R4
+n@s@r@a@m
+vtop
+R5
+!i10b 1
+!s100 3nA]>>K_ENC>4H3_H3T@Y0
+IcY;_`lILE@Uj;M^IAoS3S1
+R0
+R1
+R6
+8C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v
+FC:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v
+L0 6
+R2
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R3
+R4
+vtop_tb
+R5
+!i10b 1
+!s100 G>0gzeVZEW0Al_bIBMz=R3
+IXFd2l>g9m>ZL3lmX=Cg:^1
+R0
+R1
+R6
+8C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+FC:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+L0 14
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/patri/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v|
+!i113 1
+R3
+R4

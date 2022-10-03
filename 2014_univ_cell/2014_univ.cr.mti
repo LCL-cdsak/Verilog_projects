@@ -1,0 +1,15 @@
+C:/Users/patri/Desktop/ic_contest_2022/2014_univ_cell/STI_DAC.v {1 {vlog -work work -vopt C:/Users/patri/Desktop/ic_contest_2022/2014_univ_cell/STI_DAC.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module STI_DAC
+
+Top level modules:
+	STI_DAC
+
+} {} {}} C:/Users/patri/Desktop/ic_contest_2022/2014_univ_cell/testfixture.v {1 {vlog -work work -vopt C:/Users/patri/Desktop/ic_contest_2022/2014_univ_cell/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}

@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech64_10.1c\examples
+T_opt
+Viz1[IWHmMXb:PiP245MWJ2
+Z1 04 11 4 work testfixture fast 0
+=1-00d86109c718-6235bad6-24e-2c98
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z3 OL;O;10.1c;51
+Z4 dC:\modeltech64_10.1c\examples
+T_opt1
+V<<OFFMzjdUY=i73<Hll_X1
+R1
+=17-00d86109c718-6235fc49-19b-f50
+R2
+n@_opt1
+R3
+T_opt2
+V6NI^okg<=D:V12j6JIX8f2
+R1
+=1-00d86109c718-6235d233-193-224c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt2
+R3
+R4
+vCONV
+I9[`C[GloBM0b]bm95;gKd3
+VhkU<I1I2;LJmZ=H_39GeL0
+Z5 dC:\Users\patri\Desktop\ic_contest_2022\2019_univ_cell
+w1647705157
+8C:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/CONV.v
+FC:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/CONV.v
+L0 4
+Z6 OL;L;10.1c;51
+r1
+31
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@c@o@n@v
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/CONV.v|
+!i10b 1
+!s100 TkWY:elOhIkGUcgBTKd6d0
+!s85 0
+!s108 1647705159.762000
+!s107 C:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/CONV.v|
+vtestfixture
+Id]zZ9O3QEPiZbISc]F_o<1
+VKBIIT=eCh7cJh[^JXBGX00
+R5
+w1647688152
+8C:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/testfixture.v
+FC:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/testfixture.v
+L0 11
+R6
+r1
+31
+R7
+!s100 f3JCg1VLJ=U4odn9b@MD^2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/testfixture.v|
+!s108 1647705159.703000
+!s107 C:/Users/patri/Desktop/ic_contest_2022/2019_univ_cell/testfixture.v|
+!i10b 1
+!s85 0

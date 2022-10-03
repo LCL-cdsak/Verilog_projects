@@ -1,0 +1,15 @@
+C:/Users/patri/Desktop/2008_univ_cell/tb.v {1 {vlog -work work -vopt C:/Users/patri/Desktop/2008_univ_cell/tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Users/patri/Desktop/2008_univ_cell/lcd_ctrl.v {1 {vlog -work work -vopt C:/Users/patri/Desktop/2008_univ_cell/lcd_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module LCD_CTRL
+
+Top level modules:
+	LCD_CTRL
+
+} {} {}}

@@ -1,0 +1,13 @@
+C:/Users/patri/Desktop/ic_contest_2022/2015_practice_grad/testfixture.v {0 {vlog -work work -vopt C:/Users/patri/Desktop/ic_contest_2022/2015_practice_grad/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "C:/Users/patri/Desktop/ic_contest_2022/2015_practice_grad/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} C:/Users/patri/Desktop/ic_contest_2022/2015_practice_grad/SET.v {0 {vlog -work work -vopt C:/Users/patri/Desktop/ic_contest_2022/2015_practice_grad/SET.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "C:/Users/patri/Desktop/ic_contest_2022/2015_practice_grad/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}}

@@ -1,0 +1,8 @@
+C:/Users/patri/Desktop/ic_contest_2022/2021_grad_cell/2021_grad_cell/tb.sv {1 {vlog -work work -vopt -sv C:/Users/patri/Desktop/ic_contest_2022/2021_grad_cell/2021_grad_cell/tb.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}

@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\patri\Desktop\ic_contest_2022\2009_univ_cell
+T_opt
+VoPF6;LM7KF:@88jK:8kLb2
+04 11 4 work testfixture fast 0
+=32-00d86109c718-623effd0-1a3-e60
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1c;51
+vgeofence
+IHEVN=n=I4O`dPBlhn5XFk3
+Vfhzkz8N8fG5`BccKZ<kjT3
+Z0 dC:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell
+w1648295879
+8C:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell\geofence.v
+FC:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell\geofence.v
+L0 1
+Z1 OL;L;10.1c;51
+r1
+31
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s90 -reportprogress|300|-work|work|-vopt|C:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell\geofence.v|
+!s100 G2RcFIWkRE9UW5Ik0G9dl1
+!s108 1648295886.374000
+!s107 C:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell\geofence.v|
+!i10b 1
+!s85 0
+vtestfixture
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I8_I_RRcOC;VCdX8GcTKUL0
+VKBIIT=eCh7cJh[^JXBGX00
+S1
+Z2 dC:\Users\patri\Desktop\ic_contest_2022\2021_grad_cell\2021_grad_cell
+w1615958974
+8C:/Users/patri/Desktop/ic_contest_2022/2021_grad_cell/2021_grad_cell/tb.sv
+FC:/Users/patri/Desktop/ic_contest_2022/2021_grad_cell/2021_grad_cell/tb.sv
+L0 7
+R1
+r1
+31
+o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 zYS<AJ>O[WNjFI=h]OM193
+!s105 tb_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/patri/Desktop/ic_contest_2022/2021_grad_cell/2021_grad_cell/tb.sv|
+!i10b 1
+!s85 0
+!s108 1648295886.442000
+!s107 C:/Users/patri/Desktop/ic_contest_2022/2021_grad_cell/2021_grad_cell/tb.sv|

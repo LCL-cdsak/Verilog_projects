@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\patri\Desktop\ic_contest_2022\2015_univ_cell\testbench
+T_opt
+VzB^gRPNfhGoL7PAc1G]Zd0
+04 12 4 work testfixture1 fast 0
+=1-d85ed35e71f7-620be69a-3b6-3b0c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1c;51
+vSET
+IFd`]e`eUz9@4hJAgQZ3j=3
+V77MXgZe]]bG91Q]NM_gP<3
+Z1 dC:\Users\patri\Desktop\ic_contest_2022\2015_univ_cell\testbench
+w1644946848
+8SET.v
+FSET.v
+L0 1
+Z2 OL;L;10.1c;51
+r1
+31
+Z3 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@s@e@t
+!s90 -reportprogress|300|SET.v|
+!s100 UlX>X6cb0cKo6dede;:@O3
+!s108 1644946859.569000
+!s107 SET.v|
+!i10b 1
+!s85 0
+vtestfixture1
+I^a3gfKEllzk4f]SWl1gS>2
+VWP0=oXMOeYWB]IV3[4WoU2
+R1
+w1426125657
+8testfixture.v
+Ftestfixture.v
+L0 7
+R2
+r1
+31
+R3
+!i10b 1
+!s100 3c4>ogjf]Q>69b_RmmV4A0
+!s85 0
+!s108 1644947096.783000
+!s107 testfixture.v|
+!s90 -reportprogress|300|testfixture.v|+define+MD2|
+!s92 +define+MD2 -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF

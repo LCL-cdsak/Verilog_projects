@@ -1,0 +1,16 @@
+C:/Users/patri/Desktop/VERILOG/2016_univ_cell/Exercise/LBP.v {1 {vlog -work work -vopt C:/Users/patri/Desktop/VERILOG/2016_univ_cell/Exercise/LBP.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module LBP
+
+Top level modules:
+	LBP
+
+} {} {}} C:/Users/patri/Desktop/VERILOG/2016_univ_cell/Exercise/testfixture.v {1 {vlog -work work -vopt C:/Users/patri/Desktop/VERILOG/2016_univ_cell/Exercise/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture
+-- Compiling module lbp_mem
+
+Top level modules:
+	testfixture
+
+} {} {}}
